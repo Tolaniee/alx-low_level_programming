@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - Tasks on strings
+ * main - Task on strings
  *
  *
  * Return: 0
