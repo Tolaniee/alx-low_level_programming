@@ -3,30 +3,30 @@
 #include <stdio.h>
 
 /**
- * main - Tasks on if else while
+ * main - Prints a text according number
  *
- * Return: 0
+ * Return: Always (Success)
  */
 int main(void)
 {
-	int n;
-	int x;
+	int n, lastd;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	x = % 10;
-	printf("Last digit of %d is % d", n, x);
-	if (x > 5)
+	lastd = n % 10;
+
+	if (lastd > 5)
 	{
-		print("and is greater than 5");
+		printf("Last digit of %d is %d and is greater than 5\n", n, lastd);
 	}
-	if (x == 0)
+	else if (lastd == 0)
 	{
-		printf("and is 0");
+		printf("Last digit of %d is %d and is 0\n", n, lastd);
 	}
-	if (x < 6 && x != 0)
+	else if (lastd < 6 && lastd != 0)
+	{
+		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, lastd);
 	}
-		printf("and is less tha 6 and not 0");
-		printf("\n");
-		return (0);
+
+	return (0);
 }
