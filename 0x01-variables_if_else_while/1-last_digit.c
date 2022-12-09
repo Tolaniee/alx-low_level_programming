@@ -1,7 +1,9 @@
 #include <stdlib.h>
 #include <time.h>
+#include <stdio.h>
+
 /**
- * main - Tsks on if else while
+ * main - Tasks on if else while
  *
  * Return: 0
  */
