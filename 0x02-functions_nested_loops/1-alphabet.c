@@ -1,17 +1,16 @@
 #include "main.h"
-
 /**
- * main - print all the letters of the alphabet in lowercase
+ *print_alphabet - abcd
+ *Description: print lowercase alphabet
+ *Return: void.
  */
-
-void print_alphabet(void);
+void print_alphabet(void)
 {
-	char letter;
-
-	for (letter = 'a'; letter <= 'z'; letter++)
-	{
-		_putchar(letter);
-
-	}
-	_putchar('\n');
+char alphabet[26] = "abcdefghijklmnopqrstuvwxyz";
+int i;
+for (i = 0; i < 26; i++)
+{
+_putchar(alphabet[i]);
+}
+_putchar('\n');
 }
