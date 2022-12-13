@@ -25,5 +25,7 @@ int main(void)
 			f1 = f2;
 			f2 = next;
 		}
-
-
+	}
+	printf("\n");
+	return (0);
+}
