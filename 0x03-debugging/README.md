@@ -1,1 +1,1 @@
- Tasks on debugging codes and rubber debugging
+Projects on debugging codes.
