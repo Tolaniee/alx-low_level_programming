@@ -1,1 +1,1 @@
-This project is about structures.
+This project talks about structure.
